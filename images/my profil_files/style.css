@@ -1,0 +1,243 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	background-image: url(images/white.jpg);
+	background-size: cover;
+	margin: 0;
+}
+
+.navbar { 
+	justify-content: space-between;
+	background-color: grey;
+	height: 70px;
+	width: 100%;
+	background-size: cover;
+	background-image: url(images/fond.jpg);
+	display: flex;
+	position: relative;
+	align-items: center;
+	color: #73736f
+}
+
+.h_a, .social {
+	display: flex;
+	flex-direction: row;
+}
+
+.h_a h2 {
+	margin: 0 15px;
+}
+
+.social a {
+	margin: 0 15px;
+}
+
+.h_a {
+	margin-left: 50px;
+}
+
+.social {
+	margin-right: 50px;
+}
+
+.ig {flex-direction: row;
+		background-size: cover;
+		background-image: url(images/ig.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 30px;
+		height: 30px;
+		margin-left: 20px;
+		}
+.lk {
+		background-size: cover;
+		background-image: url(images/lk.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 30px;
+		height: 30px;
+		}
+
+.fb {
+		background-size: cover;
+		background-image: url(images/fb.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 30px;
+		height: 30px;
+		}
+}
+
+
+.my_name {
+	color: #F5EEE9; 
+	font-family: 'Raleway', sans-serif;
+}
+
+.slogan {
+	color: #73736f;
+}
+
+.quote {
+	font-size: 28px;
+}
+
+.the_top { 
+	text-align: center;
+	border-radius: 8px;
+	font-family: 'Dancing Script', cursive;
+}
+
+.ville {
+	text-align: center;
+	margin-bottom: 10px;
+	font-family: 'Dancing Script', cursive;
+}
+.photos {
+	display: flex;
+	position: relative;
+	justify-content: space-around;
+	align-items: center;
+	padding-bottom: 5px;
+	background-color: grey;
+	background-size: cover;
+	background-image: url(images/fond.jpg);
+	font-family: 'Lato', sans-serif;
+	font-size: 1px;
+	color: gray;
+}
+
+
+.photos p {
+	opacity: 0;
+}
+
+.pic1:hover #text_lo {
+	opacity: 1;
+	transition: 0.4s;
+	font-size: 20px;
+	color: black;
+}
+
+.pic2:hover #text_vegas {
+	opacity: 1;
+	transition: 0.4s;
+	font-size: 20px;
+	color: black;
+}
+
+.pic3:hover #text_sd {
+	opacity: 1;
+	transition: 0.4s;
+	font-size: 20px;
+	color: black;
+}
+
+.pic1 {flex-direction: row;
+		background-size: cover;
+		background-image: url(images/la.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 300px;
+		height: 300px;
+		margin: 60px auto;
+		border-radius: 8px;
+		padding-left: 20px;
+		
+		
+
+}
+
+
+
+.losangeles {
+margin-top: 305px;
+}
+
+.lasvegas {
+margin-top: 305px;
+}
+
+.sandiego {
+margin-top: 305px;
+}
+
+
+.pic2 {flex-direction: row;
+	background-size: cover;
+		background-image: url(images/vegas.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 300px;
+		height: 300px;
+		margin: 60px auto;
+		border-radius: 8px;
+		padding-left: 20px;
+}
+
+.pic3 {flex-direction: row;
+background-size: cover;
+		background-image: url(images/san_diego.jpg);
+		display: flex;
+		position: relative;
+		justify-content: space-around;
+		width: 300px;
+		height: 300px;
+		margin: 60px auto;
+		border-radius: 8px;
+		padding-left: 20px;
+}
+
+.bloc_travel {
+
+	background-size: cover;
+	background-image: url(images/cancun.jpg);
+	width: 800px;
+	height: 300px;
+	margin: 60px auto;
+	padding: 30px;
+	border-radius: 8px;
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Dancing Script', cursive;
+}
+
+
+.bloc_music {
+	background-color: grey; 
+	width: 800px;
+	padding: 30px;
+	height: 300px;
+	margin: 60px auto;
+	border-radius: 8px;
+	background-size: cover;
+	background-position: center;
+	text-align: left;
+	background-image: url(images/guitare.jpg);
+	display: block;
+	font-family: 'Dancing Script', cursive;
+
+}
+
+.bloc_dance {
+	background-color: grey;
+	width: 800px;
+	padding: 30px;
+	height: 300px;
+	margin: 60px auto;
+	border-radius: 8px;
+	background-size: cover;
+	background-position: center;
+	text-align: right;
+	background-image: url(images/dance.jpg);
+	display: block;
+	font-family: 'Dancing Script', cursive;} 
+
+.bloc_danse, p {
+	font-family: 'Dancing Script', cursive;
+
+}
